@@ -1,0 +1,21 @@
+{
+  "name": "zoo-tracker-angular",
+  "description": "an angular webapp to help a zoo track its animal inventory and their needs",
+  "main": "gulfile.js",
+  "authors": [
+    "Aaron Ross"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "2"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
