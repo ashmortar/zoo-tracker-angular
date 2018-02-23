@@ -1,8 +1,6 @@
 {
   "name": "zoo-tracker-angular",
   "version": "1.0.0",
-  "description": "an angular webapp to help a zoo track its animal inventory and their needs",
-  "main": "gulpfile.js",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
@@ -10,20 +8,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashmortar/zoo-tracker-angular.git"
-  },
-  "keywords": [
-    "angular",
-    "2"
-  ],
-  "author": "Aaron Ross",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ashmortar/zoo-tracker-angular/issues"
-  },
-  "homepage": "https://github.com/ashmortar/zoo-tracker-angular#readme",
   "dependencies": {
     "@angular/common": "2.4.0",
     "@angular/compiler": "2.4.0",
@@ -57,5 +42,6 @@
     "lite-server": "2.2.2",
     "typescript": "2.2.2",
     "typings": "1.3.2"
-  }
+  },
+  "main": "gulpfile.js"
 }
